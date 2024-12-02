@@ -19,7 +19,7 @@ namespace Day02Test
 
             var result = _sut.Calculate(input);
 
-            Assert.That(result, Is.EqualTo(2));
+            Assert.That(result, Is.EqualTo(598));
         }
 
         private List<string> GetSampleInput() =>
