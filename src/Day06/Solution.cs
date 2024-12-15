@@ -2,8 +2,8 @@
 
 public class Solution 
 {
-    public void Problem01() {  }
+    public int Problem01() { return 0;  }
 
-    public void Problem02() {  }
+    public int Problem02() { return 0; }
 
 }
