@@ -26,7 +26,7 @@ namespace Day04
         {
             var assembly = Assembly.GetExecutingAssembly();
             string resourceName = assembly.GetManifestResourceNames()
-                .Single(str => str.EndsWith("input.txt"));
+                .Single(str => str.EndsWith("input.aoc"));
 
             var charlist = new List<List<char>>();
 

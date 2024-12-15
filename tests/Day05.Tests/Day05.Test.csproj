@@ -10,17 +10,17 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="input\input.txt" />
-	  <None Remove="input\input_sample.txt" />
-	  <None Remove="input\rules.txt" />
-	  <None Remove="input\rules_sample.txt" />
+	  <None Remove="input\input.aoc" />
+	  <None Remove="input\input_sample.aoc" />
+	  <None Remove="input\rules.aoc" />
+	  <None Remove="input\rules_sample.aoc" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Include="input\input.txt" />
-	  <EmbeddedResource Include="input\input_sample.txt" />
-	  <EmbeddedResource Include="input\rules.txt" />
-	  <EmbeddedResource Include="input\rules_sample.txt" />
+	  <EmbeddedResource Include="input\input.aoc" />
+	  <EmbeddedResource Include="input\input_sample.aoc" />
+	  <EmbeddedResource Include="input\rules.aoc" />
+	  <EmbeddedResource Include="input\rules_sample.aoc" />
 	</ItemGroup>
 
 	<ItemGroup>

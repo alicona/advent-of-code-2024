@@ -13,8 +13,8 @@ namespace Day05Test
             _sut = new SolutionProblem01();
         }
 
-        [TestCase("rules_sample.txt", "input_sample.txt", 143)]
-        [TestCase("rules.txt", "input.txt", 5639)]
+        [TestCase("rules_sample.aoc", "input_sample.aoc", 143)]
+        [TestCase("rules.aoc", "input.aoc", 5639)]
         public void Test(string rulesFileName, string inputFileName, int expected) 
         {
             var rules = GetRules(rulesFileName);
